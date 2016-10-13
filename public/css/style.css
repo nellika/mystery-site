@@ -46,7 +46,7 @@ h2{
   position:fixed;
   right: 0;
   top: 40%;
-  background-color:#000;
+  background-color:#050f11;
   z-index: 1000;
 }
 
@@ -198,6 +198,10 @@ h2{
 }
 
 /*============================== EXPERIENCES ==============================*/
+
+#other-experiences{
+  background-color: #faf6eb;
+}
 
 #other-experiences img{
   max-width: 100%;
