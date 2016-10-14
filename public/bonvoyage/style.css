@@ -1,0 +1,157 @@
+body{
+  margin:0;
+  background-color: #e8e8e8;
+  font-family: myriad-pro-semi-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #252525;
+}
+
+ul{
+  margin: 0 15%;
+  background-color: #3FA9F5;
+  padding: 0px;
+}
+
+nav{
+  position: fixed;
+  width:100%;
+}
+
+nav ul{
+  text-align: center;
+}
+
+nav ul li{
+  list-style: none;
+  display:inline-block;
+  padding-top: 10px;
+}
+
+nav ul li:hover, nav ul li.active{
+  background-color: #2D74A0;
+}
+
+nav ul li img{
+  width:43%;
+}
+
+hr.fancy{
+   border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.fixed{
+  width:70%;
+  margin-top: 0;
+}
+
+.content{
+  margin: 0 15%;
+  background-color:#fff;
+  padding-top: 159px;
+  padding-bottom: 20px;
+  text-align:center;
+}
+
+.content .main-title{
+  background-image:url(Imagery/Front_photo.jpg);
+  background-size: 100%;
+  height:500px;
+  background-repeat: no-repeat;
+}
+
+.introduction div, .details div{
+  width:30%;
+  display:inline-block;
+  vertical-align:top;
+  padding-top: 30px
+}
+
+.introduction div img{
+  width: 65%;
+}
+
+.details div{
+  height:270px;
+  margin:0 1%;
+  -webkit-box-shadow: inset 0px 0px 31px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 31px -4px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 31px -4px rgba(0,0,0,0.75);
+}
+
+#one {
+  background-image:url(Imagery/App1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#two {  
+  background-image:url(Imagery/Rules1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+    cursor: auto;
+}
+
+#three {  
+  background-image:url(Imagery/Points1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+#four {  
+  background-image:url(Imagery/Accomodation1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;}
+
+#five {  
+  background-image:url(Imagery/Guide1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#six {  
+  background-image:url(Imagery/Welcome_package1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.introduction div p{
+  margin:10px;
+  text-align: justify;
+  font-size: 14pt;
+}
+
+.details div p{
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.details div .pop-up-txt{
+  opacity: 0;
+}
+
+.details div:hover .pop-up-txt{
+  opacity: 1
+}
+
+.rulz {
+  opacity: 0;
+}
+
+.details div:hover{
+  -webkit-box-shadow: inset 0px 0px 300px 80px rgba(255,255,255,1);
+  -moz-box-shadow: inset 0px 0px 300px 80px rgba(255,255,255,1);
+  box-shadow: inset 0px 0px 300px 80px rgba(255,255,255,1);
+  -webkit-transition: all 0.10s ease-in-out;
+  -moz-transition: all 0.10s ease-in-out;
+  -ms-transition: all 0.10s ease-in-out;
+  -o-transition: all 0.10s ease-in-out;
+  }
